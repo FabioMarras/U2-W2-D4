@@ -1,0 +1,76 @@
+@import "./bootstrap-overrides";
+
+.bgWelcome {
+  background-color: #7550fe;
+}
+
+footer {
+  div {
+    div {
+      p {
+        padding-inline: 15px;
+      }
+    }
+  }
+}
+
+body {
+  background-color: #f5f4f8;
+}
+
+main {
+  div {
+    div {
+      color: white;
+      button:first-of-type {
+        color: white;
+      }
+    }
+  }
+}
+svg {
+  margin-inline: 20px;
+}
+#svg1 {
+  margin-inline: 40%;
+  margin-block: 35%;
+}
+@media only screen and (max-width: 600px) {
+  #ciao {
+    right: 70px;
+    position: absolute;
+    top: 15px;
+  }
+  main {
+    div {
+      div {
+        flex-wrap: wrap;
+        order: 1;
+      }
+    }
+  }
+  #imgWelcome {
+    order: 2;
+  }
+  #secondDivHero {
+    flex-direction: column;
+  }
+  #firstDivHero {
+    padding-inline: 20px;
+  }
+  #recDiv {
+    padding-inline: 20px;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+  footer {
+    div {
+      flex-direction: column;
+      align-items: center;
+      div {
+        flex-direction: row;
+      }
+    }
+  }
+}
